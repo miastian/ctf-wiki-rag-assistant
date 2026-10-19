@@ -1,0 +1,30 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 原始数据和索引不入库,只保留下载脚本
+data/raw/
+data/processed/
+chroma_db/
+chroma_lc/
+chroma_*/
+data/experiments/
+data/models/
+data/bundle*/
+secrag-job.tar.gz
+data/local/
+web/node_modules/
+web/dist/
+artifacts/
+.pnpm-store/
+
+# 本地评测输出与完整 CTF 语料不发布到 GitHub
+data/eval/*.json
+data/eval/*.tmp
+!data/eval/ctf_cases.json
+data/ctf/remote-preparation/
+
+# 本地历史归档不发布
+releases/

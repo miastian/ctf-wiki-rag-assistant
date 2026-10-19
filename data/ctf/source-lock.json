@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/ctf-wiki/ctf-wiki",
+  "commit": "e225ddfcd420a7f54a5940f47336ebdf8c29b875",
+  "docs_root": "docs/zh/docs",
+  "config_path": "docs/zh/mkdocs.yml",
+  "license": "CC-BY-NC-SA-4.0",
+  "profile": "ctf",
+  "scope": "Chinese knowledge pages; no external linked content or image OCR"
+}
